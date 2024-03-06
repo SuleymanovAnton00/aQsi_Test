@@ -38,7 +38,7 @@
 
 ## uml: sequence diagram
 
-```
+```plantuml
 @startuml order
 
 autonumber
