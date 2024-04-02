@@ -38,19 +38,3 @@
 
 ![](UML-диаграмма.png)
 
-
-
-## PlantUML example
-
-'''plantuml
- 
-Customer -> Project.manager: Постановка требуемой задачи
-Project.manager -> Team.lead: Передача в команду разработки
-Team.lead -> Technical.writer: Делигирование задачи на исполнителя
-Technical.writer -> Technical.writer: Инициализация задачи
-Technical.writer -> Technical.writer: Планирование необходимых шагов для разработки пакета документов
-Technical.writer -> Technical.writer: Написание документов
-Technical.writer -> Team.lead: Передача на контроль качества (публикация версии на сервер)
-Team.lead -> Technical.writer: Отправка на внесение изменений
-Technical.writer -> Customer: Согласование пакета документов
-'''
